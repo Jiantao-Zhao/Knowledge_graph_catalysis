@@ -1,0 +1,8 @@
+pdfplumber
+decimer
+rdkit-pypi
+networkx
+pandas
+opencv-python-headless
+tensorflow
+pydantic

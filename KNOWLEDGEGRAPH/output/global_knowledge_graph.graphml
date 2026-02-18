@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d3" for="node" attr.name="reactivity_class" attr.type="string" />
+  <key id="d2" for="node" attr.name="smiles" attr.type="string" />
+  <key id="d1" for="node" attr.name="label" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="1-s2.0-S0022283612003440-main.pdf">
+      <data key="d0">Paper</data>
+      <data key="d1">1-s2.0-S0022283612003440-main.pdf</data>
+    </node>
+    <node id="Reaction_1-s2.0-S0022283612003440-main.pdf">
+      <data key="d0">Reaction</data>
+      <data key="d1">Hydrolysis</data>
+    </node>
+    <node id="PEP_Phe-Phe">
+      <data key="d0">Peptide</data>
+      <data key="d1">Phe-Phe</data>
+    </node>
+    <node id="CHEM_Congo Red">
+      <data key="d0">Chemical</data>
+      <data key="d1">Congo Red</data>
+    </node>
+    <node id="1-s2.0-S0079610724000592-main.pdf">
+      <data key="d0">Paper</data>
+      <data key="d1">1-s2.0-S0079610724000592-main.pdf</data>
+    </node>
+    <node id="Reaction_1-s2.0-S0079610724000592-main.pdf">
+      <data key="d0">Reaction</data>
+      <data key="d1">Catalytic Process</data>
+    </node>
+    <node id="MOL_CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC">
+      <data key="d0">Molecule</data>
+      <data key="d2">CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC</data>
+      <data key="d1">CCCCCCCCCCCCCCCCCCCC...</data>
+      <data key="d3">Unknown</data>
+    </node>
+    <node id="MOL_[Fe]">
+      <data key="d0">Molecule</data>
+      <data key="d2">[Fe]</data>
+      <data key="d1">[Fe]...</data>
+      <data key="d3">Unknown</data>
+    </node>
+    <edge source="1-s2.0-S0022283612003440-main.pdf" target="Reaction_1-s2.0-S0022283612003440-main.pdf" id="0">
+      <data key="d4">REPORTS</data>
+    </edge>
+    <edge source="PEP_Phe-Phe" target="Reaction_1-s2.0-S0022283612003440-main.pdf" id="0">
+      <data key="d4">CATALYZES</data>
+    </edge>
+    <edge source="CHEM_Congo Red" target="Reaction_1-s2.0-S0022283612003440-main.pdf" id="0">
+      <data key="d4">INVOLVED_IN</data>
+    </edge>
+    <edge source="1-s2.0-S0079610724000592-main.pdf" target="Reaction_1-s2.0-S0079610724000592-main.pdf" id="0">
+      <data key="d4">REPORTS</data>
+    </edge>
+    <edge source="MOL_CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC" target="Reaction_1-s2.0-S0079610724000592-main.pdf" id="0">
+      <data key="d4">PARTICIPANT_IN</data>
+    </edge>
+    <edge source="MOL_CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC" target="Reaction_1-s2.0-S0079610724000592-main.pdf" id="1">
+      <data key="d4">PARTICIPANT_IN</data>
+    </edge>
+    <edge source="MOL_[Fe]" target="Reaction_1-s2.0-S0079610724000592-main.pdf" id="0">
+      <data key="d4">PARTICIPANT_IN</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,52 @@
+{
+  "source_file": "1-s2.0-S0079610724000592-main.pdf",
+  "metadata": {
+    "title": "Extracted from filename",
+    "doi": "Unknown"
+  },
+  "extracted_visual_entities": [
+    {
+      "image_id": "1-s2_0-S0079610724000592-main_p3_i1",
+      "page": 3,
+      "file_path": "/Users/jiantao/Desktop/pep_cat/KNOWLEDGEGRAPH/output/extracted_images/1-s2_0-S0079610724000592-main/1-s2_0-S0079610724000592-main_p3_i1.png",
+      "predicted_smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+      "bbox": [
+        126.992,
+        55.400989000000095,
+        468.272,
+        396.68098900000007
+      ]
+    },
+    {
+      "image_id": "1-s2_0-S0079610724000592-main_p3_i2",
+      "page": 3,
+      "file_path": "/Users/jiantao/Desktop/pep_cat/KNOWLEDGEGRAPH/output/extracted_images/1-s2_0-S0079610724000592-main/1-s2_0-S0079610724000592-main_p3_i2.png",
+      "predicted_smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+      "bbox": [
+        126.992,
+        540.280969,
+        468.272,
+        688.024989
+      ]
+    },
+    {
+      "image_id": "1-s2_0-S0079610724000592-main_p5_i1",
+      "page": 5,
+      "file_path": "/Users/jiantao/Desktop/pep_cat/KNOWLEDGEGRAPH/output/extracted_images/1-s2_0-S0079610724000592-main/1-s2_0-S0079610724000592-main_p5_i1.png",
+      "predicted_smiles": "[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe",
+      "bbox": [
+        126.992,
+        360.1479990000001,
+        468.272,
+        678.3879890000001
+      ]
+    }
+  ],
+  "extracted_text_entities": {
+    "peptides": [],
+    "conditions": [],
+    "chemicals": [],
+    "reaction_types": []
+  },
+  "llm_extraction_prompt_template": "Analyze the following chemical structures found in images: {smiles_list} along with the text from the paper. Identify the reaction components (substrate, product, catalyst) and conditions."
+}

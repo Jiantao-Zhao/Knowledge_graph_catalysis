@@ -1,0 +1,21 @@
+{
+  "source_file": "1-s2.0-S0022283612003440-main.pdf",
+  "metadata": {
+    "title": "Extracted from filename",
+    "doi": "Unknown"
+  },
+  "extracted_visual_entities": [],
+  "extracted_text_entities": {
+    "peptides": [
+      "Phe-Phe"
+    ],
+    "conditions": [],
+    "chemicals": [
+      "Congo Red"
+    ],
+    "reaction_types": [
+      "Hydrolysis"
+    ]
+  },
+  "llm_extraction_prompt_template": "Analyze the following chemical structures found in images: {smiles_list} along with the text from the paper. Identify the reaction components (substrate, product, catalyst) and conditions."
+}
